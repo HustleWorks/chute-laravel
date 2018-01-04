@@ -35,7 +35,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "HustleWorks\\Chute\\ChuteServiceProvider"
+        "HustleWorks\\ChuteLaravel\\ChuteServiceProvider"
       ],
       "aliases": {
       }

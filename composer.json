@@ -12,12 +12,18 @@
   ],
   "require": {
     "php": "^7.0",
+    "hustleworks/chute": "dev-master",
     "illuminate/support": "^5.0,<5.6",
     "illuminate/console": "^5.0,<5.6",
     "illuminate/filesystem": "^5.0,<5.6",
-    "intervention/image": "^2.4",
     "ramsey/uuid": "~3.0"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@git.hustle.works:internal-projects/chute.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "HustleWorks\\ChuteLaravel\\": "src"

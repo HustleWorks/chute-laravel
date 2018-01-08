@@ -23,12 +23,6 @@
       "HustleWorks\\ChuteLaravel\\": "src"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url":  "git@git.hustle.works:internal-projects/chute.git"
-    }
-  ],
   "config": {
     "sort-packages": true
   },
